@@ -1,0 +1,27 @@
+---
+abstract: 'syntactic sugar to make Mo one-liners easier'
+author:
+  - "Damien \"dams\" Krotkine"
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110580'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: o
+provides:
+  o:
+    file: lib/o.pm
+    version: 0.100
+requires:
+  Filter::Simple: 0
+resources:
+  homepage: http://search.cpan.org/dist/o
+  repository: http://github.com/dams/o-pm
+version: 0.100
